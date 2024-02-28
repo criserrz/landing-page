@@ -4,39 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>css Project</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="Header">
-      <p>Header Logo</p>
-      <ul>
-        <li>Header link 1</li>
-        <li>Header link 2</li>
-        <li>Header link 3</li>
-      </ul>
-    </div>
-    <div class="introduction">
-      <h1>This website is awesome</h1>
-      <p>
-        This website has some text that goes here under the main title. Is a
-        smaller font and the color is lower contrast
-      </p>
-      <button>Sign up</button>
-      <img
-        src="img/aaron-burden-6DD9FJYj0Vo-unsplash.jpg"
-        alt="This is a placeholder for a image"
-      />
+    <div class="hero">
+      <div class="Header">
+        <p id="logo">Header Logo</p>
+        <ul>
+          <li class="header-link">Header link 1</li>
+          <li class="header-link">Header link 2</li>
+          <li class="header-link">Header link 2</li>
+        </ul>
+      </div>
+      <div class="introduction">
+        <div class="hero-text">
+          <h1 id="hero-title">This website is awesome</h1>
+          <p>
+            This website has some text that goes here under the main title. Is a
+            smaller font and the color is lower contrast
+          </p>
+          <button>Sign up</button>
+        </div>
+        <div id="hero-image">
+          <img
+            src="img/aaron-burden-6DD9FJYj0Vo-unsplash.jpg"
+            alt="This is a placeholder for a image"
+          />
+        </div>
+      </div>
     </div>
     <div class="random-information">
       <h2>Some Random Information</h2>
-      <div>
-        <img src="img/adrien-converse-REL986jyuX4-unsplash.jpg" alt="" />
-        <p>This is some subtext under an illustration or image</p>
-        <img src="img/bruno-ramos-lara-sz3AWACktLc-unsplash.jpg" alt="" />
-        <p>This is some subtext under an illustration or image</p>
-        <img src="img/davies-designs-studio-f5_lfi2S-d4-unsplash.jpg" alt="" />
-        <p>This is some subtext under an illustration or image</p>
-        <img src="img/nathan-anderson-fcZIyU-nbFE-unsplash.jpg" alt="" />
-        <p>This is some subtext under an illustration or image</p>
+      <div class="random-gallery">
+        <div class="random-img">
+          <img src="img/adrien-converse-REL986jyuX4-unsplash.jpg" alt="" />
+          <p>This is some subtext under an illustration or image</p>
+        </div>
+        <div class="random-img">
+          <img src="img/bruno-ramos-lara-sz3AWACktLc-unsplash.jpg" alt="" />
+          <p>This is some subtext under an illustration or image</p>
+        </div>
+        <div class="random-img">
+          <img
+            src="img/davies-designs-studio-f5_lfi2S-d4-unsplash.jpg"
+            alt=""
+          />
+          <p>This is some subtext under an illustration or image</p>
+        </div>
+        <div class="random-img">
+          <img src="img/nathan-anderson-fcZIyU-nbFE-unsplash.jpg" alt="" />
+          <p>This is some subtext under an illustration or image</p>
+        </div>
       </div>
     </div>
     <div class="quote">
@@ -48,7 +66,7 @@
       <p>-Thor, God of Thunder</p>
     </div>
     <div class="call-to-action">
-      <div>
+      <div class="call-to-action-box">
         <div>
           <p>Call to action! It's Time!</p>
           <p>
@@ -60,7 +78,7 @@
         </div>
       </div>
     </div>
-    <div class="Footer">
+    <div class="footer">
       <p>Copyright © The Odin Project 2024</p>
     </div>
   </body>
